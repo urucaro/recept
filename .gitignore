@@ -1,0 +1,6 @@
+data/xap-db/*
+src/test/*
+src/module/build/
+RCPT.e4p
+test*
+.eric5*
