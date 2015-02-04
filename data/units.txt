@@ -1,0 +1,1 @@
+krm,kryddmått,tsk,tesked,dsk,dessertsked,msk,matsked,kkp,kaffekopp,ml,milliliter,cl,centiliter,dl,deciliter,l,liter,g,gr,gram,hg,hekto,hektogram,kg,kilo,kilogram,näve,nypa

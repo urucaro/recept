@@ -1,9 +1,6 @@
 #!/usr/bin/python
 #-*- coding:  utf8 -*-
 
-
-"""It has to recieve a """
-
 import rcpt
 import rcpt.livsmedel
 from pprint import pprint
@@ -35,6 +32,8 @@ def sort_ingredients (database_obj,  all_url_ingredients):
                 if len(hit_list) == 1:
                     result_dict [hit_list[0]].append(inner_dict)
                 elif len(hit_list) == 0:
+#                    inner_dict [url]['ingredient name'] = ingredient_name
+#                    to_be_found_list.append(inner_dict)
                     print ingredient_name
                 else:
                     inner_dict [url]['hit_list'] = hit_list
@@ -50,7 +49,7 @@ def sort_ingredients (database_obj,  all_url_ingredients):
                 result_dict [common_word].append (item)
             else:
                 print 'här är ett icke ord!!!!!!!!!!!!!'
-                print hit_list
+                print item [url]['hit_list']
 
             
     return result_dict
